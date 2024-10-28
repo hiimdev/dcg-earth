@@ -1,0 +1,5 @@
+### Intentional or mistaken distortion of one or more facts
+
+Misrepresent may pertain to collaboration terms, conditions, requirements of completion, situations, personal capabilities or any such comparable hindrance to performance or delivery of services and the like.
+
+Definitions of misrepresented may include, but are not limited to, situations wherein: i) a genuine, new item was set for purchase yet a fake, used or copy of such item was received by the purchaser; ii) photographs or descriptions of an item or location are evidenced to objectively and significantly differ when viewed in person; iii) services or procedures are objectively evidenced as not completed in the manner, to the quality or standards as agreed; iv) proposed courses of action cannot be reasonably considered as a viable alternate for substitute of registered collaborative engagement or exchange agreement and the like.

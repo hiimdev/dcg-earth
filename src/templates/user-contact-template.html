@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Information</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+      }
+
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        background-color: #fff;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        border-radius: 8px;
+      }
+
+      .my-4 {
+        margin: 16px 0;
+      }
+
+      .m-4 {
+        margin: 16px;
+      }
+
+      .m-0 {
+        margin: 0px;
+      }
+
+      .text-sm {
+        font-size: 14px;
+      }
+
+      p {
+        margin-bottom: 8px;
+        text-wrap: break-word;
+        overflow-wrap: break-word;
+      }
+
+      strong {
+        color: #555;
+      }
+
+      .header {
+        background-color: #003000;
+        padding: 16px;
+        text-align: center;
+        color: #6edc7b;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">Digital Climate Group Team</div>
+        <p class="my-4">Dear {{name}},</p>
+
+        <p class="my-4"> Thank you for your enquiry to the Digital Climate Group !</p>
+
+        <p class="my-4">
+          We’re looking into your request and are eager to assist in any way we can. If there’s anything we can
+          do to improve your experience, please don’t hesitate to reach out.
+        </p>
+
+        <p class="m-0">Best regards,</p>
+        <p class="m-0">Digital Climate Group Team</p>
+      </div>
+    </div>
+  </body>
+</html>

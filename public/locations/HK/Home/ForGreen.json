@@ -1,0 +1,75 @@
+[
+  {
+    "title": "For Green Projects",
+    "description": "Understand and Explore Sustainable & Green qualification Reduce Costs by Up to 80%.",
+    "image": "/locations/HK/Home/images/For-Green-Finance-Issuers.jpg",
+    "buttons": [
+      {
+        "name": "Learn more",
+        "link": "{{APP_URL}}/green-services",
+        "style": {
+          "color": "#6EDC7B",
+          "backgroundColor": "#003000",
+          "border": "none",
+          "hover": {
+            "color": "#003000",
+            "backgroundColor": "#6EDC7B"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "For Green Conscious Citizens",
+    "description": "Explore and Get Involved in High-Quality Green Projects. Full Transparency and Traceability on ESG Impacts.",
+    "image": "/locations/HK/Home/images/For-Green-Finance-Investors.jpg",
+    "buttons": [
+      {
+        "name": "Learn more",
+        "link": "{{APP_URL}}/green-services",
+        "style": {
+          "color": "#6EDC7B",
+          "backgroundColor": "#003000",
+          "border": "none",
+          "hover": {
+            "color": "#003000",
+            "backgroundColor": "#6EDC7B"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Green Qualification",
+    "description": "AI-powered Digital Measurement, Reporting, and Verification (DMRV). Third-Party Audited Green Qualification for Precision and Trust.",
+    "image": "/locations/HK/Home/images/Green-Qualification.jpg",
+    "buttons": [
+      {
+        "name": "Onboard as an Verifier",
+        "link": "{{APP_URL}}/contact",
+        "style": {
+          "color": "#000000",
+          "backgroundColor": "#ffffff",
+          "border": "1px solid #000000",
+          "hover": {
+            "color": "#003000",
+            "backgroundColor": "#6EDC7B"
+          }
+        }
+      },
+      {
+        "name": "Learn more",
+        "link": "{{APP_URL}}/green-services",
+        "style": {
+          "color": "#6EDC7B",
+          "backgroundColor": "#003000",
+          "border": "none",
+          "hover": {
+            "color": "#003000",
+            "backgroundColor": "#6EDC7B"
+          }
+        }
+      }
+    ]
+  }
+]

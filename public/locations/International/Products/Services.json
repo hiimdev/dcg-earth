@@ -1,0 +1,36 @@
+{
+  "title": "The Ultimate DLT Operating System.",
+  "description": "All in one DCG platform brings unmatched, direct access and control across the eclectic range of Green projects.",
+  "services": [
+    {
+      "name": "Account",
+      "description": "State-of-the-art encryption works in the background, simply create your account for unique protections for data that’s individually encrypted.",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-isometric-rhombus-round-logo-mark.png"
+    },
+    {
+      "name": "Access Control",
+      "description": "Customize the controls to include only yourself, organizations, or even your personalized team. Add or remove others or whole operations at anytime.",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-wave-sound-audio-speaker-round-logo-mark.png"
+    },
+    {
+      "name": "Credentials",
+      "description": "Use any compliance standards, verify with true anonymity, adjust and re-verify whenever required",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-rhombus-round-logo-mark.png"
+    },
+    {
+      "name": "MicroServices",
+      "description": "Front and back-end operations plus all features are MS, any API or SDK can be set for implementation.",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-petals-round-logo-mark.png"
+    },
+    {
+      "name": "Custom SC",
+      "description": "Easy deploy custom smart contracts, control all details, like attributes plus push or exchange anywhere.",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-x-letter-sqare-round-logo-mark.png"
+    },
+    {
+      "name": "Notary",
+      "description": "Region agnostic, custodial or non, ZKP set DID and VC control certifying all TRX and events for individuals as well as enterprises.",
+      "image": "/locations/International/Products/images/abstract-geometric-figure-shape-mark-logo-sign-triangle-spiral-round-logo-mark.png"
+    }
+  ]
+}

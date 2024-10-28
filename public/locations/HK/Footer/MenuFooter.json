@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Platform",
+    "options": [
+      {
+        "name": "Overview",
+        "link": "{{APP_URL}}/#overview"
+      },
+      {
+        "name": "Features",
+        "link": "{{APP_URL}}/#features"
+      },
+      {
+        "name": "Distributed",
+        "link": "{{APP_URL}}/products/#distributed"
+      }
+    ]
+  },
+  {
+    "title": "DCG",
+    "options": [
+      {
+        "name": "About",
+        "link": "{{APP_URL}}/about"
+      },
+      {
+        "name": "Contact",
+        "link": "{{APP_URL}}/contact"
+      }
+    ]
+  },
+  {
+    "title": "Extended",
+    "options": [
+      {
+        "name": "Services",
+        "link": "{{APP_URL}}/green-services"
+      }
+    ]
+  },
+  {
+    "title": "Legal",
+    "options": [
+      {
+        "name": "Terms",
+        "link": "{{APP_URL}}/terms"
+      },
+      {
+        "name": "Privacy",
+        "link": "{{APP_URL}}/privacy-policy"
+      }
+    ]
+  }
+]

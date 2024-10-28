@@ -1,0 +1,68 @@
+{
+  "title": "Meet the core team",
+  "description": "Hailing from leading finance, technology and Fortune 50 companies, united in the mission to reshape Green projects.",
+  "groups": [
+    {
+      "name": "Digital Climate Group",
+      "logo": "/locations/HK/About/images/dcg-logo.jpg",
+      "members": [
+        {
+          "name": "Julien Martin",
+          "position": "Founder",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Julien-Martin.jpg"
+        },
+        {
+          "name": "Jonathan Hu",
+          "position": "Senior Advisor",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Jonathan-Hu.jpg"
+        },
+        {
+          "name": "Guillaume Cunnington",
+          "position": "Partner",
+          "avatar": "/locations/HK/About/images/dcg-Guillaume-Cunnington.jpg"
+        },
+        {
+          "name": "Pierre Rousseau",
+          "position": "Senior Advisor",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Pierre-Rousseau.jpg"
+        }
+      ]
+    },
+    {
+      "name": "DC Securities HK",
+      "logo": "/locations/HK/About/images/DC-Securities-HK-logo.jpg",
+      "members": [
+        {
+          "name": "Julien Martin",
+          "position": "CEO",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Julien-Martin.jpg"
+        },
+        {
+          "name": "Guillaume Cunnington",
+          "position": "COO",
+          "avatar": "/locations/HK/About/images/dcg-Guillaume-Cunnington.jpg"
+        },
+        {
+          "name": "Lisa Ducasse",
+          "position": "CTO",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Lisa-Ducasse.jpg"
+        },
+        {
+          "name": "Jonathan Chung",
+          "position": "CIO",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Jonathan-Chung.jpg"
+        },
+        {
+          "name": "Bruce Wu",
+          "position": "Origination",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Bruce-Wu.jpg"
+        },
+        {
+          "name": "Curtis Tse",
+          "position": "Distribution",
+          "avatar": "/locations/HK/About/images/dcg-core-team-Curtis-Tse.jpg"
+        }
+      ]
+    }
+  ]
+}

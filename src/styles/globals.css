@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 120, 100%, 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 177, 56%, 17%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 127, 61%, 65%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --headline: 0, 0%, 2%;
+    --light: 57, 100%, 96%;
+    --dark: 170, 49%, 9%;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --headline: 0, 0%, 2%;
+    --light: 57, 100%, 96%;
+    --dark: 170, 49%, 9%;
+  }
+}
+
+#gradient-canvas {
+  width: 100%;
+  height: 100%;
+  --gradient-color-1: #003000;
+  --gradient-color-2: #42a893;
+  --gradient-color-3: #003000;
+  --gradient-color-4: #6edc7b;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .drop-shadow-black-gradual {
+    filter: drop-shadow(-2px 0 0 rgba(0, 0, 0, 0.4)) 
+            drop-shadow(-4px -1px 0 rgba(0, 0, 0, 0.3)) ;
+  }
+}
+
+/* Outer Hexagon Shape */
+.clip-hexagon {
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  overflow: hidden;
+}
+
+/* Inner Hexagon Shape */
+.clip-inner-hexagon {
+  clip-path: polygon(0% 50%, 25% 10%, 75% 10%, 100% 50%, 75% 90%, 25% 90%);
+  width: 50%;
+  height: 60%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clip-custom {
+  clip-path: polygon(3% 0%, 97% 0%, 100% 50%, 97% 100%, 5% 100%, 0% 50%);
+}
+
+.bdt-marker:before,
+.bdt-marker:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  content: '';
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(0.35) translateY(-50%) translateX(-50%);
+  opacity: 0;
+  animation: marker-ripple-animation 2.6s cubic-bezier(0.25, 0.9, 0.2, 1) 0.4s infinite;
+}
+
+.bdt-marker:after {
+  width: 100%;
+  height: 100%;
+  border-color: rgba(255, 255, 255, 0.4);
+  animation: marker-ripple-animation 2.6s cubic-bezier(0.25, 0.9, 0.2, 1) 0s infinite;
+}
+
+.bdt-marker:before {
+  width: 100%;
+  height: 100%;
+  border-color: rgba(255, 255, 255, 0.4);
+  animation: marker-ripple-animation 2.6s cubic-bezier(0.25, 0.9, 0.2, 1) 0.4s infinite;
+}
+
+@keyframes marker-ripple-animation {
+  0% {
+    transform: translate3d(-50%, -50%, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) scale(1.7);
+    opacity: 0;
+  }
+}

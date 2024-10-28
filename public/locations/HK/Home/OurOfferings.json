@@ -1,0 +1,21 @@
+{
+  "title": "Unparalleled Direct Access and Control.",
+  "description": "One platform for Real World sustainable initiatives",
+  "offerings": [
+    {
+      "name": "Trust",
+      "description": "Immutable, near real-time provenance and dynamic data with AI enhanced analytics",
+      "icon": "/locations/HK/Home/images/trust.svg"
+    },
+    {
+      "name": "Cost Efficiency",
+      "description": "Reduce verification costs with blockchain technologies",
+      "icon": "/locations/HK/Home/images/efficiency.svg"
+    },
+    {
+      "name": "Traceability",
+      "description": "Assess ESG impact of projects across the full value chain and beyond borders",
+      "icon": "/locations/HK/Home/images/traceability.svg"
+    }
+  ]
+}

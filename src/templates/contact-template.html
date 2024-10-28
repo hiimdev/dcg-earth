@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Information</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ccc;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #fff;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 40px auto;
+      border-radius: 8px;
+    }
+
+    .my-4 {
+      margin: 16px 0;
+    }
+
+    .m-4 {
+      margin: 16px;
+    }
+
+    p {
+      margin-bottom: 8px;
+      text-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    strong {
+      color: #555;
+    }
+
+    .header {
+      background-color: #003000;
+      padding: 16px;
+      text-align: center;
+      color: #6EDC7B; font-size: 24px;
+      font-weight: 700;
+
+    }
+
+    .font-semibold {
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="header">
+        Contact Request
+      </div>
+      <p class="my-4"><strong>Dear Digital Climate Group Team,</strong></p>
+  
+      <p class="my-4">User {{name}} has reached out seeking assistance regarding {{message}}.</p>
+  
+      <p class="my-4 font-semibold">Details:</p>
+      <div class="m-4">
+        <p><strong>• Name:</strong> {{name}}</p>
+        <p><strong>• Email:</strong> {{email}}</p>
+        <p><strong>• Individual or Institution:</strong> {{subject}}</p>
+        <div>
+          <p><strong>• Topic:</strong></p>
+          <p>{{message}}</p>
+        </div>
+      </div>
+  
+      <p>Please respond to the user at the provided email.</p>
+    </div>
+  </div>
+</body>
+
+</html>

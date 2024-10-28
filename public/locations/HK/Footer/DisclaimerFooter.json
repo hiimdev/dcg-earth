@@ -1,0 +1,28 @@
+{
+  "contents": [
+    "DCG cannot make any warranty or guarantee relating to the accuracy, timeliness or completeness of external Layer One and Two, public and private networks Block Explorer data or similar third party information.",
+    "DCG is not licensed or authorised by any financial regulators in Hong Kong."
+  ],
+  "certifications": [
+    {
+      "name": "ADGM",
+      "imagePath": "/locations/HK/Footer/images/footer-logo-adgm-1.png"
+    },
+    {
+      "name": "Cyberport",
+      "imagePath": "/locations/HK/Footer/images/footer-logo-cyberport-1.png"
+    },
+    {
+      "name": "Dar-al-sharia",
+      "imagePath": "/locations/HK/Footer/images/footer-logo-dar-al-sharia.png"
+    },
+    {
+      "name": "Mark-whit",
+      "imagePath": "/locations/HK/Footer/images/logomark-whit.png"
+    },
+    {
+      "name": "Copywer-ISO-70",
+      "imagePath": "/locations/HK/Footer/images/new1-copywer-ISO-70-p.png"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "title": "For Green Projects",
+    "description": "Streamlining the whole verification processes with pre-fabricated workflows.",
+    "services": [
+      {
+        "name": "Verification",
+        "description": "Fully customizable workflows and multi-party processes.",
+        "icon": "/locations/International/Products/images/verification.svg"
+      },
+      {
+        "name": "Qualification",
+        "description": "Leveraging DCG Platforms for qualification in green projects.",
+        "icon": "/locations/International/Products/images/qualification.svg"
+      },
+      {
+        "name": "Servicing",
+        "description": "Offering streamlined management using smart contracts and automated actions.",
+        "icon": "/locations/International/Products/images/servicing.svg"
+      }
+    ]
+  },
+  {
+    "title": "For Green Enthusiasts",
+    "description": "Explore green projects. Securely browse assets and data without compromise.",
+    "services": [
+      {
+        "name": "Involvement",
+        "description": "Explore high quality green projects at low costs. Embrace full transparency and traceability on underlying projects.",
+        "icon": "/locations/International/Products/images/involvement.svg"
+      },
+      {
+        "name": "ESG Impacts",
+        "description": "Authenticated data by third party verifiers to measure environmental impacts of projects. Leverage real-time, immutable records to enhance credibility in the impact world.",
+        "icon": "/locations/International/Products/images/impacts.svg"
+      }
+    ]
+  },
+  {
+    "title": "Qualification",
+    "description": "Streamlining the whole verification processes with pre-fabricated workflows.",
+    "services": [
+      {
+        "name": "Expertise",
+        "description": "With excellent professional knowledge, we provide professional competence certification and professional ESG consultation to enterprises and organizations.",
+        "icon": "/locations/International/Products/images/expertise.svg"
+      },
+      {
+        "name": "Standardization",
+        "description": "Comply with recognized sustainability standards and guidelines, and international best practices, regulations and frameworks related to sustainable development.",
+        "icon": "/locations/International/Products/images/standardization.svg"
+      },
+      {
+        "name": "Gen AI",
+        "description": "Generative Artificial Intelligence protocols work to provide Green qualification across projects and for a range of critical metrics.",
+        "icon": "/locations/International/Products/images/gen-ai.svg"
+      }
+    ]
+  }
+]

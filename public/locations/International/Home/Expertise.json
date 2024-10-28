@@ -1,0 +1,22 @@
+{
+  "title": "Expertise.",
+  "description": "Facilitating the natural conversion of real world assets into environmental and impact projects by bridging new technology with impact.",
+  "expertises": [
+    {
+      "name": "Green Analytics",
+      "icon": "/locations/International/Home/images/2_Decentralization-1.png"
+    },
+    {
+      "name": "Impact Data",
+      "icon": "/locations/International/Home/images/18_Technology-1.png"
+    },
+    {
+      "name": "Digital MRV",
+      "icon": "/locations/International/Home/images/20_Ordered-Record.png"
+    },
+    {
+      "name": "Green Projects",
+      "icon": "/locations/International/Home/images/25_Digital-Key-1.png"
+    }
+  ]
+}
