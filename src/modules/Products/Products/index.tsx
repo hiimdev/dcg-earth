@@ -24,7 +24,7 @@ const Products = () => {
   const { data: productsData, isLoading } = useGetContents<TData>({ page: 'Products', component: 'Products' });
 
   return (
-    <div className="relative mx-auto -translate-y-8 rounded-t-[2.5rem] bg-[#0C231F] py-[3rem] lg:py-[7.5rem]">
+    <div className="relative mx-auto -translate-y-8 rounded-t-[2.5rem] bg-[#0C231FF2] py-[3rem] lg:py-[7.5rem]">
       <div className="absolute left-[-10%] top-1/4 h-[50%] w-[50%] select-none">
         <Image alt="" src="/common/images/About-Us-Mision-BG-2.webp" unoptimized priority fill />
       </div>

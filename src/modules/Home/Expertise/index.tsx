@@ -27,7 +27,7 @@ const Expertise = () => {
       <VStack className="mx-auto max-w-2xl">
         <p className="text-headline text-[3rem] font-semibold">{expertiseData?.title || ''}</p>
 
-        <p className="text-md font-medium text-[#0C231F99]">{expertiseData?.description || ''}</p>
+        <p className="text-md font-medium text-[#0C231FF299]">{expertiseData?.description || ''}</p>
       </VStack>
 
       <div className="grid grid-cols-1 md:grid-cols-2">

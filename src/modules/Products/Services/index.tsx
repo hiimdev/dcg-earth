@@ -64,7 +64,7 @@ const Services = () => {
 
                 <VStack spacing={8}>
                   <p className="text-headline text-lg font-semibold">{detail?.name || ''}</p>
-                  <p className="text-sm text-[#0C231F99]">{detail?.description || ''}</p>
+                  <p className="text-sm text-[#0C231FF299]">{detail?.description || ''}</p>
                 </VStack>
               </VStack>
             ))}

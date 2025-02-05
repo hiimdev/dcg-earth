@@ -33,8 +33,8 @@ const PrivacyPage = () => {
   });
 
   return (
-    <LegalLayout title="Privacy Policy" breadcrumb={breadcrumb} backgroundUrl="/common/images/privacy-bg.jpg">
-      <div className="container mx-auto min-h-screen px-4 py-5 text-[#000000] md:px-0">
+    <LegalLayout title="Privacy Policy" breadcrumb={breadcrumb} backgroundUrl="/common/images/latest-drops-bg3.png">
+      <div className="container mx-auto px-4 py-5 text-[#000000] md:px-0">
         <Markdown
           remarkPlugins={[remarkGfm, remarkFrontmatter, remarkDirective, remarkMath]}
           rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight, rehypeFormat]}

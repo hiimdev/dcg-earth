@@ -28,13 +28,13 @@ const ContactForm = () => {
       case 'success':
         return (
           <div className="mt-2 rounded-[0.625rem] border border-[#46b450] p-2.5">
-            <p className="text-center font-medium text-[#0c231f99]">Thank you for your message. It has been sent.</p>
+            <p className="text-center font-medium text-[#0C231FF2]">Thank you for your message. It has been sent.</p>
           </div>
         );
       case 'error':
         return (
           <div className="mt-2 rounded-[0.625rem] border border-[#ffb900] p-2.5">
-            <p className="text-center font-medium text-[#0c231f99]">
+            <p className="text-center font-medium text-[#0C231FF2]">
               One or more fields have an error. Please check and try again.
             </p>
           </div>
@@ -111,7 +111,7 @@ const ContactForm = () => {
             type="submit"
             className="bg-primary text-accent hover:bg-accent mb-6 hidden h-[3.125rem] w-full text-base font-medium transition-all duration-300 ease-in-out hover:text-black lg:inline-flex"
           >
-            Send to DCG
+            Send
           </Button>
 
           {renderNotice}

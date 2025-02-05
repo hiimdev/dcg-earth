@@ -77,7 +77,7 @@ const config: Config = {
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
-          DEFAULT: '#451D1A',
+          DEFAULT: '#134341',
           foreground: 'hsl(var(--secondary-foreground))',
         },
         muted: {
@@ -85,7 +85,7 @@ const config: Config = {
           foreground: 'hsl(var(--muted-foreground))',
         },
         accent: {
-          DEFAULT: '#6EDC7B',
+          DEFAULT: '#1584E8',
           foreground: 'hsl(var(--accent-foreground))',
         },
         headline: {
