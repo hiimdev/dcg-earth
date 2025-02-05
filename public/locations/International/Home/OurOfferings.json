@@ -1,21 +1,21 @@
 {
-  "title": "Unparalleled Direct Access and Control.",
-  "description": "One platform for Real World sustainable initiatives",
+  "title": "The amazing NFT art of the world here",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "offerings": [
     {
       "name": "Trust",
-      "description": "Immutable, near real-time provenance and dynamic data with AI enhanced analytics",
-      "icon": "/locations/International/Home/images/trust.svg"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "/locations/International/Home/images/nft.png"
     },
     {
       "name": "Cost Efficiency",
-      "description": "Reduce verification costs with blockchain technologies",
-      "icon": "/locations/International/Home/images/efficiency.svg"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "/locations/International/Home/images/nft.png"
     },
     {
       "name": "Traceability",
-      "description": "Assess ESG impact of projects across the full value chain and beyond borders",
-      "icon": "/locations/International/Home/images/traceability.svg"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "/locations/International/Home/images/nft.png"
     }
   ]
 }

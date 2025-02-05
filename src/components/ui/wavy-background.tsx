@@ -16,9 +16,9 @@ export const WavyBackground = ({
   containerClassName?: string;
 }) => {
   return (
-    <div className={cn('relative h-full bg-[#134341]', containerClassName)}>
+    <div className={cn('relative h-full bg-[#451D1A]', containerClassName)}>
       <Canvas className="absolute inset-0 z-0" />
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#134341] to-[#13434100] opacity-100 transition-all"></div>
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#431813] to-[#451D1A00] opacity-100 transition-all"></div>
       <div className={cn('relative z-10 h-full', className)} {...props}>
         {children}
       </div>

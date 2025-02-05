@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useGetContents } from '@/api/contents';
 import { ROUTES } from '@/utils/routes';
@@ -14,6 +13,7 @@ import WavyText from '@/components/WavyText';
 type TData = {
   title: string;
   heroTitle: string;
+  heroTitle2: string;
   description: string;
 };
 
@@ -23,8 +23,8 @@ const HeroSection = () => {
   return (
     <div id="overview">
       <WavyBackground className="mx-auto">
-        <VStack spacing={32} className="mx-auto h-[33rem] justify-end md:h-[35rem] lg:h-[62rem]">
-          <VStack className="space-y-3 md:space-y-8">
+        <VStack className="mx-auto h-[33rem] justify-center md:h-[35rem] lg:h-[47rem]">
+          <VStack className="space-y-3 md:space-y-6">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -44,10 +44,17 @@ const HeroSection = () => {
               </Text>
             </motion.div>
 
-            <WavyText
-              className="inter-var drop-shadow-black-gradual text-center text-3xl font-bold text-white md:text-4xl lg:text-7xl"
-              text={HeroData?.heroTitle || ''}
-            />
+            <VStack spacing={4}>
+              <WavyText
+                className="inter-var drop-shadow-black-gradual text-center text-3xl font-bold text-white md:text-4xl lg:text-7xl"
+                text={HeroData?.heroTitle || ''}
+              />
+
+              <WavyText
+                className="inter-var drop-shadow-black-gradual text-center text-3xl font-bold text-white md:text-4xl lg:text-7xl"
+                text={HeroData?.heroTitle2 || ''}
+              />
+            </VStack>
 
             <motion.div
               initial="hidden"
@@ -70,27 +77,6 @@ const HeroSection = () => {
               </Button>
             </Link>
           </VStack>
-
-          <motion.div
-            className="relative mx-auto h-[8rem] w-[20rem] md:w-[40rem] lg:h-[28.1875rem] lg:w-[62.5rem]"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.5 }}
-            variants={{
-              visible: { opacity: 1, y: 0, scale: 1 },
-              hidden: { opacity: 0, y: -20, scale: 0.8 },
-            }}
-          >
-            <Image alt="" unoptimized src={'common/images/Vector.webp'} fill className="object-contain" />
-            <Image
-              alt=""
-              unoptimized
-              src={'common/images/header-logo-marble-14b-ateeel.png'}
-              fill
-              className="object-contain"
-            />
-          </motion.div>
         </VStack>
       </WavyBackground>
     </div>

@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { HStack } from '@/components/ui/h-stack';
 import { VStack } from '@/components/ui/v-stack';
-import { Show } from '@/components/Show';
 
 import { type TData } from '..';
 
@@ -41,7 +40,7 @@ const BenefitsReview = ({ benefitsData }: { benefitsData: TData }) => {
                 />
               </div>
 
-              <Show when={active === index && !!benefit?.video}>
+              {/* <Show when={active === index && !!benefit?.video}>
                 <div className="relative mb-8 h-[7.125rem] w-[14.8125rem] lg:h-[12.8125rem] lg:w-[26.75rem]">
                   <video
                     src={benefit?.video || ''}
@@ -53,7 +52,7 @@ const BenefitsReview = ({ benefitsData }: { benefitsData: TData }) => {
                     className="rounded-2xl"
                   />
                 </div>
-              </Show>
+              </Show> */}
             </VStack>
 
             <VStack
