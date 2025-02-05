@@ -1,6 +1,7 @@
 import React, { forwardRef } from 'react';
 import Link from 'next/link';
-import { env } from '@/utils/const';
+// import { env } from '@/utils/const';
+import { ROUTES } from '@/utils/routes';
 
 import { cn } from '@/lib/utils';
 import { Button, type ButtonProps } from '@/components/ui/button';
@@ -12,7 +13,7 @@ interface ILaunchButtonProps extends ButtonProps {
 const LaunchButton = forwardRef<HTMLButtonElement, ILaunchButtonProps>(
   ({ isTransparent, className, ...props }, ref) => {
     return (
-      <Link href={env.SANDBOX_DCG_URL} target="_blank">
+      <Link href={ROUTES.HOME} target="_blank">
         <Button
           ref={ref}
           className={cn(
@@ -24,7 +25,7 @@ const LaunchButton = forwardRef<HTMLButtonElement, ILaunchButtonProps>(
           )}
           {...props}
         >
-          Launch DCGx
+          Launch
         </Button>
       </Link>
     );
