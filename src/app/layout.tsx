@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 
 import { type Metadata, type Viewport } from 'next';
-import { env } from '@/utils/const';
+// import { env } from '@/utils/const';
 import clsx from 'clsx';
 
 import { fontPoppins, fontSans } from '@/config/fonts';
@@ -11,7 +11,7 @@ import MainLayout from '@/components/layouts/MainLayout';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(env.APP_URL),
+  // metadataBase: new URL(env.APP_URL),
   title: siteConfig.name,
   description: siteConfig.description,
   generator: 'Next.js',
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/og-image.jpg',
-    shortcut: '/og-image.jpg',
-    apple: '/og-image.jpg',
+    icon: '/og-image.png',
+    shortcut: '/og-image.png',
+    apple: '/og-image.png',
   },
   twitter: {
     card: 'summary_large_image',

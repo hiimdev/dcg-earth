@@ -71,10 +71,10 @@ html {
 #gradient-canvas {
   width: 100%;
   height: 100%;
-  --gradient-color-1: #003000;
-  --gradient-color-2: #42a893;
-  --gradient-color-3: #003000;
-  --gradient-color-4: #6edc7b;
+  --gradient-color-1: #d1d5d8;
+  --gradient-color-2: #3498db;
+  --gradient-color-3: #e74c3c;
+  --gradient-color-4: #f1c40f;
 }
 
 @layer base {
@@ -88,8 +88,7 @@ html {
 
 @layer utilities {
   .drop-shadow-black-gradual {
-    filter: drop-shadow(-2px 0 0 rgba(0, 0, 0, 0.4)) 
-            drop-shadow(-4px -1px 0 rgba(0, 0, 0, 0.3)) ;
+    filter: drop-shadow(-2px 0 0 rgba(0, 0, 0, 0.4)) drop-shadow(-4px -1px 0 rgba(0, 0, 0, 0.3));
   }
 }
 
