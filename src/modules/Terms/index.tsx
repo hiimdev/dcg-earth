@@ -30,8 +30,8 @@ const TermsPage = () => {
   const { data: term } = useGetContents<{ content: string; metadata: any }>({ page: 'Terms', component: 'Terms' });
 
   return (
-    <LegalLayout title="Terms of Use" breadcrumb={breadcrumb} backgroundUrl="/common/images/term-bg.jpg">
-      <div className="container mx-auto min-h-screen px-4 py-5 text-[#000000] md:px-0">
+    <LegalLayout title="Terms of Use" breadcrumb={breadcrumb} backgroundUrl="/common/images/latest-drops-bg3.png">
+      <div className="container mx-auto px-4 py-5 text-[#000000] md:px-0">
         <Markdown
           remarkPlugins={[remarkGfm, remarkFrontmatter, remarkDirective, remarkMath]}
           rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight, rehypeFormat]}

@@ -14,7 +14,7 @@ const AboutPage = () => {
 
       <MissionSection />
 
-      <CoreTeam />
+      {/* <CoreTeam /> */}
 
       <FAQSection />
 

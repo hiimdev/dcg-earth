@@ -7,17 +7,17 @@ import { Text } from '@/components/ui/text';
 const ProudlyUncommonList = [
   {
     title: 'Customized',
-    desc: `Revolutionizing transparency by harnessing mitigation outcome instruments across diverse green projects.`,
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.`,
     imageUrl: '/common/images/Customized.png',
   },
   {
     title: 'Verified',
-    desc: `Introducing dMRV to digitally measure, report, and verify impact data from projects and trusted sources.`,
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.`,
     imageUrl: '/common/images/Verified.png',
   },
   {
     title: 'Innovative',
-    desc: `Bespoke AI and distributed ledger technologies to assess that products will qualify with green taxonomy.`,
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.`,
     imageUrl: '/common/images/Innovative.png',
   },
 ];
@@ -26,7 +26,7 @@ const ProudlyUncommon = () => {
   return (
     <div className="pb-[60px] pt-10 md:pb-[80px] md:pt-[60px] lg:pb-[100px] lg:pt-[120px]">
       <Text size="lg" weight={600} className="pb-14 text-center tracking-tight text-white">
-        Proudly Uncommon
+        The amazing NFT
       </Text>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

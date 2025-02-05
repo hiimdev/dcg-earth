@@ -9,7 +9,7 @@ const ServiceParagraph = forwardRef<HTMLParagraphElement, IServiceParagraphProps
     return (
       <p
         ref={ref}
-        className={cn('text-sm font-medium text-[#0c231f99] md:text-[0.9375rem] lg:text-base', className)}
+        className={cn('text-sm font-medium text-[#0C231FF299] md:text-[0.9375rem] lg:text-base', className)}
         {...props}
       >
         {children}

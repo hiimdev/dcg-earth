@@ -44,7 +44,7 @@ const Footer = () => {
         'bg-dark': pathname === ROUTES.CONTACT,
       })}
     >
-      <div className="from-secondary to-secondary rounded-t-[2.5rem] bg-gradient-to-r via-[#604234] p-8 font-semibold md:p-[.625rem]">
+      <div className="from-secondary to-secondary rounded-t-[2.5rem] bg-gradient-to-r via-[#0C231FF2] p-8 font-semibold md:p-[.625rem]">
         <Show when={isLoading}>
           <FooterSkeleton />
         </Show>

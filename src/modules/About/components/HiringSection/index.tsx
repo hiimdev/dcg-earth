@@ -24,8 +24,7 @@ const HiringSection = () => {
           </Text>
           <VStack align="center" spacing={24}>
             <Text size="sm" className="text-center text-[#ffffff94] md:max-w-[550px] lg:max-w-[650px]">
-              Join us in this monumental journey toward a greener future. Together, we can create an economical
-              imperative and secure a sustainable tomorrow.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.
             </Text>
 
             <Link href={ROUTES.CONTACT}>

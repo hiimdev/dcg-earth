@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useMemo } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { useGetContents } from '@/api/contents';
 
 import { HStack } from '@/components/ui/h-stack';
@@ -43,13 +43,13 @@ const HeroSection = () => {
           <Text
             size="md"
             weight={500}
-            className="w-full text-center leading-normal tracking-tight text-[#0c231f99] md:max-w-[550px] lg:max-w-[75%]"
+            className="w-full text-center leading-normal tracking-tight text-[#0C231FF299] md:max-w-[550px] lg:max-w-[75%]"
           >
             {description}
           </Text>
         </HStack>
 
-        <HStack pos="center" className="relative">
+        {/* <HStack pos="center" className="relative">
           <div className="border-5 border-accent max-w-[33%] overflow-hidden rounded-[2.5rem]">
             <video
               src="/common/videos/about-hero-section.mp4"
@@ -67,7 +67,7 @@ const HeroSection = () => {
             fill
             className="bottom-0 z-[-1] h-full w-full translate-y-20"
           />
-        </HStack>
+        </HStack> */}
       </div>
     </div>
   );

@@ -55,8 +55,7 @@ const FAQSection = () => {
             Frequently Asked Questions
           </Text>
           <Text weight={500} size="sm" className="text-[#FFFFFF96]">
-            Request a Demo and Experience the Power of DCG Firsthand. Our team is happy to guide you through the
-            platform features and functionalities, as well as answer any questions.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.
           </Text>
         </div>
         <div className="flex-1 space-y-4 p-2.5">

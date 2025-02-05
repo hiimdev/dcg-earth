@@ -43,7 +43,7 @@ const NavbarDesktop: FC<INavbarDesktopProps> = ({ isTransparent }) => {
   const pathname = usePathname();
 
   return (
-    <nav className="group hidden flex-1 items-center justify-center lg:flex">
+    <nav className="group hidden flex-1 items-center justify-center space-x-2 lg:flex">
       {navList?.map((item, index) => {
         const isActive = item?.href === pathname;
 

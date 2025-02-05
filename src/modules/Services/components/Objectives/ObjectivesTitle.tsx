@@ -26,7 +26,7 @@ const ObjectivesTitle: FC<IObjectivesTitleProps> = ({ title = '', description = 
 
       <Link href={ROUTES.CONTACT}>
         <Button className="bg-headline text-accent hover:bg-accent hover:text-headline h-fit px-[1.5625rem] py-2.5 text-sm transition-all duration-300 ease-in-out md:text-[0.9375rem] lg:text-base">
-          Get Green
+          Explore
         </Button>
       </Link>
     </div>

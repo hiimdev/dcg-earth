@@ -26,7 +26,7 @@ const OurOfferings = () => {
   if (isLoading) return <OurOfferingsSkeleton />;
 
   return (
-    <VStack className="w-full rounded-[2.5rem] bg-[#451D1A] py-[7.5rem] text-center" spacing={64}>
+    <VStack className="w-full rounded-[2.5rem] bg-[#0C231FF2] py-[7.5rem] text-center" spacing={64}>
       <VStack className="text-center" spacing={24}>
         <motion.p
           className="text-accent text-[.9375rem] font-semibold"

@@ -16,7 +16,9 @@ const ExtendedVideo: FC<IExtendedVideoProps> = ({ src = '' }) => {
 
   const render = useMemo(() => {
     if (isImage)
-      return <Image src={src} alt={'Extended Services'} fill unoptimized priority className="h-full w-full" />;
+      return (
+        <Image src={src} alt={'Extended Services'} fill unoptimized priority className="h-full w-full rounded-2xl" />
+      );
 
     return <video src={src} autoPlay loop muted playsInline controlsList="nodownload" preload="metadata" />;
   }, [isImage, src]);
