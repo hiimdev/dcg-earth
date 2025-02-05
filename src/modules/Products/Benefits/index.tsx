@@ -34,7 +34,7 @@ const Benefits = () => {
             hidden: { opacity: 0, y: -20 },
           }}
         >
-          DCGx Benefits
+          The amazing NFT
         </motion.p>
 
         <motion.p
@@ -48,8 +48,7 @@ const Benefits = () => {
             hidden: { opacity: 0, y: -20 },
           }}
         >
-          Creating opportunities at the intersection of real world assets and Internet of Things, emphasizing
-          international carbon, renewable energy, and nature-based projects.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.
         </motion.p>
       </VStack>
 

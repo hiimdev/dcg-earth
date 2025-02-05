@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useGetContents } from '@/api/contents';
 
 import { VStack } from '@/components/ui/v-stack';
-import HexagonVideo from '@/components/HexagonVideo';
 import { Show } from '@/components/Show';
 
 import Product from './components/Product';
@@ -46,9 +45,9 @@ const Products = () => {
         </Show>
       </VStack>
 
-      <div className="pt-20">
+      {/* <div className="pt-20">
         <HexagonVideo />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -36,7 +36,7 @@ export async function POST(request: Request) {
     const userMailOptions = {
       from: process.env.SMTP_DEFAULT_EMAIL,
       to: email,
-      subject: `${name}, Thank you for your enquiry to Digital Climate Group ! 🎉`,
+      subject: `${name}, Discover, and collect Digital Art NFTs ! 🎉`,
       html: userHtmlTemplate,
     };
 

@@ -14,7 +14,6 @@ import { VStack } from '@/components/ui/v-stack';
 import { Show } from '@/components/Show';
 
 import FooterLinks from './components/FooterLinks';
-import FooterPartner from './components/FooterPartner';
 import FooterSkeleton from './components/FooterSkeleton';
 
 type TData = {
@@ -45,7 +44,7 @@ const Footer = () => {
         'bg-dark': pathname === ROUTES.CONTACT,
       })}
     >
-      <div className="from-secondary to-secondary rounded-t-[2.5rem] bg-gradient-to-r via-[#1b5451] p-8 font-semibold md:p-[.625rem]">
+      <div className="from-secondary to-secondary rounded-t-[2.5rem] bg-gradient-to-r via-[#604234] p-8 font-semibold md:p-[.625rem]">
         <Show when={isLoading}>
           <FooterSkeleton />
         </Show>
@@ -82,10 +81,6 @@ const Footer = () => {
         <hr className="mx-auto w-[99.5%] border-white/20" />
 
         <FooterLinks />
-
-        <hr className="mx-auto w-[99.5%] border-white/20" />
-
-        <FooterPartner />
       </div>
     </footer>
   );

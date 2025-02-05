@@ -5,7 +5,7 @@ import { VStack } from '@/components/ui/v-stack';
 
 const OurOfferingsSkeleton = () => {
   return (
-    <VStack className="w-full rounded-[2.5rem] bg-[#0C231FF2] py-[7.5rem] text-center" spacing={64}>
+    <VStack className="w-full rounded-[2.5rem] bg-[#451D1A] py-[7.5rem] text-center" spacing={64}>
       <VStack className="w-full items-center justify-center" spacing={24}>
         <Skeleton className="h-[2rem] w-[50%] bg-[#585858] text-[#585858] md:w-[10rem]"></Skeleton>
 

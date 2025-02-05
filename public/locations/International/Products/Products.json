@@ -1,59 +1,59 @@
 [
   {
-    "title": "For Green Projects",
-    "description": "Streamlining the whole verification processes with pre-fabricated workflows.",
+    "title": "The amazing NFT art of the world here",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.",
     "services": [
       {
         "name": "Verification",
-        "description": "Fully customizable workflows and multi-party processes.",
-        "icon": "/locations/International/Products/images/verification.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       },
       {
-        "name": "Qualification",
-        "description": "Leveraging DCG Platforms for qualification in green projects.",
-        "icon": "/locations/International/Products/images/qualification.svg"
+        "name": "The amazing NFT",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       },
       {
         "name": "Servicing",
-        "description": "Offering streamlined management using smart contracts and automated actions.",
-        "icon": "/locations/International/Products/images/servicing.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       }
     ]
   },
   {
-    "title": "For Green Enthusiasts",
-    "description": "Explore green projects. Securely browse assets and data without compromise.",
+    "title": "The amazing NFT",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "services": [
       {
         "name": "Involvement",
-        "description": "Explore high quality green projects at low costs. Embrace full transparency and traceability on underlying projects.",
-        "icon": "/locations/International/Products/images/involvement.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       },
       {
         "name": "ESG Impacts",
-        "description": "Authenticated data by third party verifiers to measure environmental impacts of projects. Leverage real-time, immutable records to enhance credibility in the impact world.",
-        "icon": "/locations/International/Products/images/impacts.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       }
     ]
   },
   {
-    "title": "Qualification",
-    "description": "Streamlining the whole verification processes with pre-fabricated workflows.",
+    "title": "The amazing NFT",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.",
     "services": [
       {
         "name": "Expertise",
-        "description": "With excellent professional knowledge, we provide professional competence certification and professional ESG consultation to enterprises and organizations.",
-        "icon": "/locations/International/Products/images/expertise.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       },
       {
         "name": "Standardization",
-        "description": "Comply with recognized sustainability standards and guidelines, and international best practices, regulations and frameworks related to sustainable development.",
-        "icon": "/locations/International/Products/images/standardization.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       },
       {
         "name": "Gen AI",
-        "description": "Generative Artificial Intelligence protocols work to provide Green qualification across projects and for a range of critical metrics.",
-        "icon": "/locations/International/Products/images/gen-ai.svg"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "icon": "/locations/International/Products/images/nft.png"
       }
     ]
   }

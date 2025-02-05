@@ -16,10 +16,9 @@ const HeroSection = () => {
       <div className="container relative mx-auto pb-[13.75rem] pt-[6.25rem]">
         <VStack spacing={40}>
           <VStack spacing={4}>
-            <p className="text-[2.5rem] font-semibold lg:text-[4.5rem]">Naturally Unrivaled</p>
+            <p className="text-[2.5rem] font-semibold lg:text-[4.5rem]">The amazing NFT</p>
             <p className="max-w-2xl text-lg font-medium text-black/50">
-              The DCG world first suite of protected DLT solutions were designed to empower real-world assets, ensuring
-              that compliance, provenance, and data certification are immutably secured.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.
             </p>
           </VStack>
 
@@ -33,14 +32,7 @@ const HeroSection = () => {
         <div className="absolute bottom-1/4 right-[10%] lg:top-1/3">
           <Tilt trackOnWindow>
             <div className="relative h-[2.9375rem] w-[5.125rem] rounded-[1rem] border border-[#01010117] bg-transparent shadow-xl lg:h-[5rem] lg:w-[8.5rem]">
-              <Image
-                alt=""
-                src="/common/images/Web5-Infrastructure-Wallets-Networks-DCG-Confidential-Web3-Control-Naturally-Encrypted-Secure-Technologies-Distributed-.png"
-                unoptimized
-                priority
-                fill
-                className="object-contain"
-              />
+              <Image alt="" src="/common/images/logo.png" unoptimized priority fill className="object-contain" />
             </div>
           </Tilt>
         </div>
@@ -49,7 +41,7 @@ const HeroSection = () => {
           <div className="relative h-[7.125rem] w-[13.125rem] rounded-[1rem] lg:h-[18.1875rem] lg:w-[33.375rem]">
             <Image
               alt=""
-              src="/common/images/Naturally-Unrivaled-Photo.jpg"
+              src="/common/images/Lovepik_com-401018305-abstract-creative-color-gradient-line-patterns-elements.png"
               unoptimized
               priority
               fill
@@ -63,7 +55,7 @@ const HeroSection = () => {
             <div className="relative h-[6.3125rem] w-[6.375rem] rounded-[1rem] border border-[#01010117] bg-transparent shadow-xl lg:h-[13.9375rem] lg:w-[14.625rem]">
               <Image
                 alt=""
-                src="/common/images/A2_self-sovereign-Blockchain-and-Explorer-11-DCG-Web3-Wallet-_-Personal-Encryption-_-Hyper-Secu.png"
+                src="/common/images/logo.png"
                 unoptimized
                 priority
                 fill
